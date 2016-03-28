@@ -6,7 +6,7 @@ You will learn basic web development and create some simple web apps from scratc
 
 Classes will be held starting on March 28th for 6 weeks.  The last day of class will be May 5th.  We are going to meet Mon, Wed, and Thurs from 6:30pm - 9pm at Sierra Nevada College in PL-320 (Prim Library).
 
-[Syllabus](https://github.com/CodeTahoe/CT100/blob/master/CT100-syllabus.pdf). The syllabus is subject to change based on the pace of the class and relevancy of material at the time.
+[Syllabus](https://github.com/CodeTahoe/CT100/blob/master/ct100-syllabus.pdf). The syllabus is subject to change based on the pace of the class and relevancy of material at the time.
 
 ## Basic timeline
 
