@@ -24,5 +24,6 @@ Classes will be held starting on March 28th for 6 weeks.  The last day of class 
 [Github](https://github.com/jordanpapaleo) |
 [Twitter](https://twitter.com/jordanpapaleo)
 
-
+### Tim Olesnavage
+[Email](tim@elevate.blue) 
 
