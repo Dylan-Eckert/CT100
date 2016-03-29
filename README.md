@@ -27,5 +27,10 @@ All class updates will be posted in the CHANGELOG.md
 [Twitter](https://twitter.com/jordanpapaleo)
 
 ### Tim Olesnavage
-[Email](tim@elevate.blue) 
+[Email](tim@elevate.blue)
+[Cell](424-903-5191)
+[LinkedIn](https://www.linkedin.com/in/timolesnavage) |
+[Github](https://github.com/TimOlesnavage) |
+[Twitter](https://twitter.com/TimOlesnavage)
+
 
