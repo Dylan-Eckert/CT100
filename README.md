@@ -26,6 +26,7 @@ All class updates will be posted in the CHANGELOG.md
 [Github](https://github.com/jordanpapaleo) |
 [Twitter](https://twitter.com/jordanpapaleo)
 
+## Operations
 ### Tim Olesnavage
 [Email](tim@elevate.blue) |
 [Cell](424-903-5191) |
