@@ -118,7 +118,7 @@ We do a lot of things with files that normal users don't need to see.  A lot of 
 
 
 ## Using your Terminal or Command Line
-When most people think of programming a picture of the terminal may pop in ther head.  It has the potential to be an intimidating tool but as a developer you will discover that you will not be able to live with you, and you will also realize it's not difficult to use at all.
+When most people think of programming a picture of the terminal may pop in there head.  It has the potential to be an intimidating tool but as a developer you will discover that you will not be able to live with you, and you will also realize it's not difficult to use at all.
 
 **Open your console**.  This is going to be a hands on exercise
 
@@ -131,7 +131,7 @@ When most people think of programming a picture of the terminal may pop in ther 
 1. Change you directory to your Desktop `cd Desktop`
 1. Make a new directory called New `mkdir New`
 1. Navigate into that directory `cd New`
-1. Create a new file called README.md `echo hello > test.txt`
+1. Create a new file called README.txt `echo hello > README.txt`
 1. Open this directory in Finder `open .`
 1. Go to the immediate parent directory `cd ..`
 1. Close the terminal `exit`
@@ -145,7 +145,7 @@ When most people think of programming a picture of the terminal may pop in ther 
 1. Change you directory to your Desktop `cd Desktop`
 1. Make a new directory called New `mkdir New`
 1. Navigate into that directory `cd New`
-1. Create a new file called README.md `echo hello > test.txt`
+1. Create a new file called README.txt `echo hello > README.txt`
 1. Open this directory in Explorer `explorer .`
 1. Go to the immediate parent directory `cd ..`
 1. Delete the New directory `rd New`
@@ -171,7 +171,7 @@ There are many version control systems out there. Often they are divided into tw
 
 ### Git
 
-Git is a distributed system.  Conceptually, most other systems store information as a list of file-based changes. You think of the information they keep as a set of files and the changes made to each file over time.  
+Git is a distributed system.  Conceptually, most other systems store information as a list of file-based changes. You can think of the information they keep as a set of files and the changes made to each file over time.  
 
 <!--![image](https://git-scm.com/book/en/v2/book/01-introduction/images/deltas.png)-->
 
@@ -194,6 +194,12 @@ The basic Git workflow goes something like this:
 1. You stage the files, adding snapshots of them to your staging area.
 1. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
+#### Branch
+Git has a concept of branching a code repository.  Branching is kind of like creating a copy on your local computer.  But this copy has a reference to the main code repository giving us the ability to merge any changes back into our main repo.  Branches allow developers to work on code without changing the master repository.  You can and should branch code to build a feature, or to  fix a bug, or test an idea.  At any time, you can delete your branch without having any affect on the main repository.  Basically you should always branch a repo if you are going to change it.  This is SOOOOOO important.
+
+#### Merging
+So we just talked about branches and now we need to bring our changes back into the main repo.  This happens when we merge code.  We will get deeper into this later because, right now, we will allow GiHub to do all this for us.
+
 ### GitHub
 GitHub is a code hosting platform for git that promotes collaboration. It lets you and others work together on projects from anywhere.  You can create projects for just about anything.  I use GitHub to hold the code my projects, to let me contribute to the code on other projects, to keep track of my computers configuration files, and to even plan events.
 
@@ -204,8 +210,23 @@ You will use GH to keep track of every piece of code you write in this class.  B
 2. Sign up
 3. [EXERCISE: Learning GitHub](https://guides.github.com/activities/hello-world/)
 
+
+#### Forks
+Forking is a lot like branching but instead of doing it locally and in a repo we actually copy a repo in GitHub making it our own.  Its like a server side branch.
+
+
 ### GitHub Issues
 Github uses a concept of issues.  The purpose of issues is basically calling out something thats broken or needs to be done.  Issues are not a part of *git*; they are purely a GH feature.
+
+**GitHub Exercise**
+
+1. Go to GH and login
+2. Create a new repository with the link on the page
+3. We are going to clone the repository to our computer
+4. Create a branch new branch
+4. Make a change and push it back to GitHub
+5. Fork your neighbors repository
+6. Clone this repo
 
 
 ## File Issues in GitHub for questions after class
