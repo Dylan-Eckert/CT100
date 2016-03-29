@@ -8,6 +8,8 @@ Classes will be held starting on March 28th for 6 weeks.  The last day of class 
 
 [Syllabus](https://github.com/CodeTahoe/CT100/blob/master/ct100-syllabus.pdf). The syllabus is subject to change based on the pace of the class and relevancy of material at the time.
 
+All class updates will be posted in the CHANGELOG.md
+
 ## Basic timeline
 
 - Week 1: Environment Setup, Introduction to Development, Beginning HTML
