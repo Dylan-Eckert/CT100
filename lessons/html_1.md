@@ -136,10 +136,7 @@ Ex:
 2. Create a folder inside of it called HTML
 2. Create a new html file named `bio.html`
 1. Create a bio about yourself using all of the html tags that we have discussed so far
-1. Go to GitHub.com and create a new repository for *CT-IntroWeb*
-2. On your computer, initialize a new **git** repository in CT-IntroWeb
-3. Once you are done, stage your file, commit it, and push it to the repo you just made on GitHub.com
-4. Go to GitHub and verify your project is there
+1. Put this project into your GH account
 5. Send me a link to it
 
 

@@ -2,7 +2,7 @@
 
 ## Browser
 
-There are many options out there for a browser.  The majority of people out there just use the browser that came on their computer because they don't know any better.  But now that you are getting into development you do.  All browser are **not** created equal.  If you are writing and testing code you should use either 
+There are many options out there for a browser.  The majority of people out there just use the browser that came on their computer because they don't know any better.  But now that you are getting into development you do.  All browser are **not** created equal.  If you are writing and testing code you should use either
 
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/desktop/)
@@ -155,24 +155,24 @@ When most people think of programming a picture of the terminal may pop in there
 
 ## Terminal Cheatsheet
 ### Mac
-| Command           | What it does                  
-|-------------------|-------------------------------
-| cd                | change directory              
-| cd ..             | go up a directory             
-| ls                | list directory content        
-| mkdir folder-name | will create a folder          
-| rm -rf name       | will delete folders and files
-| open .            | will open the current terminal location in finder
+| Command           | What it does                                      | Example
+|-------------------|--------------------------------------------------------------------
+| cd                | change directory                                  | cd Projects
+| cd ..             | go up a directory                                 | cd ..
+| ls                | list directory content                            | ls
+| mkdir             | will create a folder                              | mkdir my-app
+| rm -rf            | will delete folders and files                     | rm -rf my-app
+| open              | will open the current terminal location in finder | open .
 
 ### Windows
-| Command           | What it does                  
-|-------------------|-------------------------------
-| cd                | change directory              
-| cd ..             | go up a directory             
-| dir               | list directory content        
-| mkdir folder-name | will create a folder          
-| rm -rf name       | will delete folders and files 
-| explorer .        | will open the current terminal location in explorer
+| Command           | What it does                                        | Example
+|-------------------|----------------------------------------------------------------------
+| cd                | change directory                                    | cd Projects
+| cd ..             | go up a directory                                   | cd ..
+| dir               | list directory content                              | dir
+| mkdir             | will create a folder                                | mkdir my-app
+| rd                | will delete folders and files                       | rd /S /Q my-app
+| explorer .        | will open the current terminal location in explorer | open .
 
 
 ## File Issues in GitHub for questions after class
@@ -193,4 +193,3 @@ If you have questions any time we are not in class I am going to have you post a
 	- [HTML Elements](http://www.w3schools.com/html/html_elements.asp)
 	- [HTML Attributes](http://www.w3schools.com/html/html_attributes.asp)
 - Take this [quiz](http://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML).  You will not be graded but it will help you know what you know or don't
-
