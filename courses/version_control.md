@@ -21,7 +21,7 @@ Git is a distributed system.  Conceptually, most other systems store information
 
 <!--![image](https://git-scm.com/book/en/v2/book/01-introduction/images/deltas.png)-->
 
-Instead, Git thinks of its data more like a set of snapshots of a miniature filesystem. 
+Instead, Git thinks of its data more like a set of snapshots of a miniature filesystem.
 <!--![image](https://git-scm.com/book/en/v2/book/01-introduction/images/snapshots.png)-->
 
 Most of the interaction you have with git will be on your own local computer.  Git can operate completely independently of a network connection; it doesn’t need to go out to the server to get the history and display it for you.  This is accomplished by having a local git repository/database.  You work with it and when you are ready, you can sync up with a git repository on the internet.
@@ -39,7 +39,7 @@ There are 3 states of a file in git: committed, modified, and staged.
 1. Modify a file in your project and git will detect that it has been changed.
 1. You can verify there has been a change by running `git status`
 1. Stage your changes: `git add fileName` or `git add --all`
-    - `fileName` needs to be the project path 
+    - `fileName` needs to be the project path
     - The `--all` flag will stage all files
 1. Commit your staged changes permanently to your git repository `git commit fileName -m "Here is what I changed and why"`
     - The `-m` flag allows you to include a quoted message in your commit command
@@ -48,14 +48,14 @@ There are 3 states of a file in git: committed, modified, and staged.
 
 1. Create a new git repository at the root folder of your project `git init`
     - This will also make the master branch for your project
-    - Verify your branch `git branch` 
+    - Verify your branch `git branch`
 1. Create a new branch to work on `git checkout -b branch-name`
 2. Make changes following the git file work flow
 3. Send those changes to the web platform you are using `git push origin branch-name`
     - **push** is the process of moving code from your computer to another location
     - **origin** is an easy to read/type name for a remote code location
     - This command is saying that I want to move my committed code in a named branch to a remote location
-  
+
 **PULLING CODE: Basic Git repository workflow with a web platform (GitHub or BitBucket)**
 
 1. You need to get code from a remote location to your local computer.  To do that you will need the address for that remote location
@@ -115,4 +115,4 @@ A pull request is a GH feature that allows you to submit code changes to a repo 
 | pull     | copies the current snapshot of a repo to a local repo | git pull origin branch-name                             |
 | add      | stages a changed file to be committed                 | git add fileName.txt                                    |
 | commit   | permanently adds your file to the git repo            | git commit fileName -m "Here is what I changed and why" |
-
+| status   | shows you the state of your local repo                | git status                                              |
