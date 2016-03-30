@@ -6,7 +6,8 @@ There are many options out there for a browser.  The majority of people out ther
 
 - [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/desktop/)
-- [Chrome Canary](https://www.google.com/intl/en/chrome/browser/canary.html?brand=KERZ#eula).  Google Chrome Canary has the newest of the new Chrome features. Be forewarned: it's designed for developers and early adopters, and can sometimes break down completely.
+- [Chrome Canary](https://www.google.com/intl/en/chrome/browser/canary.html?brand=KERZ#eula)
+    - Google Chrome Canary has the newest of the new Chrome features. Be forewarned: it's designed for developers and early adopters, and can sometimes break down completely.
 
 So the reason you would use one of these is because or their debugging tools; meaning you have the ability to peer into the web page in a super efficient way to either see how it is working or why its broken.  
 
@@ -86,7 +87,7 @@ Atom allows its functionality to be extended the the installation of Packages.  
 1. Click *+ Install* and lets install these packages
 	- editorconfig
 	- linter
-	- linter-standard-js
+	- linter-js-standard
 	- linter-htmlhint
 	- linter-stylelint
 
@@ -152,81 +153,26 @@ When most people think of programming a picture of the terminal may pop in there
 1. Close the terminal `exit`
 
 
-## Version Control
+## Terminal Cheatsheet
+### Mac
+| Command           | What it does                  
+|-------------------|-------------------------------
+| cd                | change directory              
+| cd ..             | go up a directory             
+| ls                | list directory content        
+| mkdir folder-name | will create a folder          
+| rm -rf name       | will delete folders and files
+| open .            | will open the current terminal location in finder
 
-Version control is a technological solution for being human.  How many of you have ever deleted or changed something that you regret?  We all have.  Programmers don't just write code, we have this nasty habit of changing code.  Unfortunately, no programmer is perfect, and sometimes, mistakes are made. Version control gives us the ability to go back to an older version of a file.  It also allows us to see the changes that have occurred to a file over time.
-
-There are many version control systems out there. Often they are divided into two groups: `centralized` and `distributed`.
-
-**Centralized** version control systems (CVCS) are based on the idea that there is a single central copy of your project somewhere (probably on a server), and programmers will commit their changes to this central copy.  Examples: CVS, Subversion, and Perforce.
-
-**Distributed** systems (DVCS) do not necessarily rely on a central server to store all the versions of a project's files. Instead, every developer a copy of a repository and has the full history of the project on their own hard drive. This copy (or clone) has all of the metadata of the original. Examples: Git, Mercurial, Bazaar or Darcs.
-
-<!--![image](https://git-scm.com/book/en/v2/book/01-introduction/images/distributed.png)-->
-
-**Read More**
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Version_control)
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-
-### Git
-
-Git is a distributed system.  Conceptually, most other systems store information as a list of file-based changes. You can think of the information they keep as a set of files and the changes made to each file over time.  
-
-<!--![image](https://git-scm.com/book/en/v2/book/01-introduction/images/deltas.png)-->
-
-Instead, Git thinks of its data more like a set of snapshots of a miniature filesystem. 
-<!--![image](https://git-scm.com/book/en/v2/book/01-introduction/images/snapshots.png)-->
-
-Most of the interaction you have with git will be on your own local computer.  Git can operate completely independently of a network connection; it doesn’t need to go out to the server to get the history and display it for you.  This is accomplished by having a local git repository/database.  You work with it and when you are ready, you can sync up with a git repository on the internet.
-
-There are 3 states of a file in git: committed, modified, and staged.
-
-- Committed: The data is safely stored in your local repo/database.
-- Modified: You have changed the file but have not committed it to your database yet.
-- Staged: You have marked a modified file in its current version to go into your next commit.
-
-<!--![image](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)-->
-
-The basic Git workflow goes something like this:
-
-1. You modify files in your working directory.
-1. You stage the files, adding snapshots of them to your staging area.
-1. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
-
-#### Branch
-Git has a concept of branching a code repository.  Branching is kind of like creating a copy on your local computer.  But this copy has a reference to the main code repository giving us the ability to merge any changes back into our main repo.  Branches allow developers to work on code without changing the master repository.  You can and should branch code to build a feature, or to  fix a bug, or test an idea.  At any time, you can delete your branch without having any affect on the main repository.  Basically you should always branch a repo if you are going to change it.  This is SOOOOOO important.
-
-#### Merging
-So we just talked about branches and now we need to bring our changes back into the main repo.  This happens when we merge code.  We will get deeper into this later because, right now, we will allow GiHub to do all this for us.
-
-### GitHub
-GitHub is a code hosting platform for git that promotes collaboration. It lets you and others work together on projects from anywhere.  You can create projects for just about anything.  I use GitHub to hold the code my projects, to let me contribute to the code on other projects, to keep track of my computers configuration files, and to even plan events.
-
-You will use GH to keep track of every piece of code you write in this class.  By the end of this session you will have put a ton of content into your own personal repository.
-
-### GitHub Setup
-1. Go to [GitHub](https://github.com/)
-2. Sign up
-3. [EXERCISE: Learning GitHub](https://guides.github.com/activities/hello-world/)
-
-
-#### Forks
-Forking is a lot like branching but instead of doing it locally and in a repo we actually copy a repo in GitHub making it our own.  Its like a server side branch.
-
-
-### GitHub Issues
-Github uses a concept of issues.  The purpose of issues is basically calling out something thats broken or needs to be done.  Issues are not a part of *git*; they are purely a GH feature.
-
-**GitHub Exercise**
-
-1. Go to GH and login
-2. Create a new repository with the link on the page
-3. We are going to clone the repository to our computer
-4. Create a branch new branch
-4. Make a change and push it back to GitHub
-5. Fork your neighbors repository
-6. Clone this repo
+### Windows
+| Command           | What it does                  
+|-------------------|-------------------------------
+| cd                | change directory              
+| cd ..             | go up a directory             
+| dir               | list directory content        
+| mkdir folder-name | will create a folder          
+| rm -rf name       | will delete folders and files 
+| explorer .        | will open the current terminal location in explorer
 
 
 ## File Issues in GitHub for questions after class
