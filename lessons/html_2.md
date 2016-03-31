@@ -112,7 +112,7 @@ List items are HTML elements that go in side of an ordered or unordered list.  L
         <li>List item</li>
         <li>Another list item</li>
     </ul>
-    
+
 ### Nesting lists
 Sometimes items in our lists need sub items.  You can do this with HTML by nesting a new list inside of an existing list item.  You can nest a unordered lists inside of ordered lists and the other way as well.
 
@@ -127,7 +127,6 @@ Sometimes items in our lists need sub items.  You can do this with HTML by nesti
       </li>
       <li>third item</li>
     </ul>
-    
 
 ### [Definition List](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
 This is our last type of list.  Its use is to define a list of terms paired to descriptions.  A term can have multiple descriptions associated to it and multiple descriptions can be associated to a term.  A simple use for this would be a glossary of terms but you can use this list for [much more](https://www.w3.org/TR/html5/grouping-content.html#the-dl-element).
@@ -179,7 +178,7 @@ The header is used to introduce content on a page or in another container.  This
 
     <header>
         <!-- Children are nested here -->
-        
+
         <h1>The page is about stuff</h1>
         <img src="logo.png" alt="My logo" />
         <a href="home.html">Home</a>
@@ -219,9 +218,9 @@ This is kind of an easy one to conceptualize as we read articles in magazines, n
         <h1>Apple</h1>
         <p>The <b>apple</b> is the fruit of the apple tree.</p>
     </article>
-   
+
 **Some questions to ask when using article**   
-    
+
 1. Would the content would make sense on its own in a feed reader? If so use an article
 1. Is the content related? If so use a section
 1. Finally if there’s no semantic relationship use a div
@@ -238,7 +237,7 @@ The other use is inside of an article where the aside content needs to be relate
 
 
 ### [nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
-This is a sectioning of a page for use with linking to other pages or sections of a page
+This is a sectioning of a page for use with linking to other pages or sections of a page.  Navs can nest inside of any sectioning element.
 
     <nav>
       <ul>
@@ -247,6 +246,3 @@ This is a sectioning of a page for use with linking to other pages or sections o
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-
-
-
