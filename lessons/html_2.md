@@ -138,14 +138,14 @@ Aside from the glossary use, I have used it to associate stock tickers to value,
     </dl>
 
 
-#### [dt](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt)
+#### [dt](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt): definition Term
 This tags the term to be described and it is only valid markup inside of a definition list.
 
     <dl>
       <dt>Elevate Blue Team</dt>
     </dl
 
-#### [dd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd)
+#### [dd](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd): definition description
 This identifies the description associated to a term in a definition list and like its partner can only be valid inside of a definition list.
 
     <dl>
