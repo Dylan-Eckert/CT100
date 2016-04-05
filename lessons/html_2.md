@@ -162,14 +162,14 @@ This identifies the description associated to a term in a definition list and li
 HTML containers are tags that are used to create content flow in a web page.  Some containers will have zero semantic meaning.  Container tags really help you create structure for a page; they can build upon our boilerplate to create layout specific boilerplates.
 
 ### [div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/)
-This is the other no meaning containers that you can use.  The span is an inline element so it will stack horizontally and maintain minimal horizontal.  It can be used to specialize content.  It should only be used if there is not a better container to use.
+This is one of the no meaning containers that you can use.  The div is a block level element so it will stack vertically and maintain as much horizontal space as it can.  It can be used to group elements for any purpose.
 
     <div>
       <!-- Children are nested here -->
     </div>
 
 ### [span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/)
-This is one of the no meaning containers that you can use.  The div is a block level element so it will stack vertically and maintain as much horizontal space as it can.  It can be used to group elements for any purpose.
+This is the other no meaning containers that you can use.  The span is an inline element so it will stack horizontally and maintain minimal horizontal.  It can be used to specialize content.  It should only be used if there is not a better container to use.
 
     <span><!-- content goes here --></span>
 
