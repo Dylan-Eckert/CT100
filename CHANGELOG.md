@@ -1,6 +1,6 @@
 ## April 4, 2016
 
-We did not finish the HTML container elements last time, so we need to do that.  Additionally, we will do an exercise to reinforce the skills learned last week and tonight
+We did not finish the HTML container elements last time, so we need to do that.  Additionally, we will do an exercise to reinforce the skills learned last week and tonight.
 
 ### Practice
 - Redo tonights challenge but use different markup this time.
