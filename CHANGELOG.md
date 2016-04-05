@@ -1,8 +1,20 @@
+## April 4, 2016
+
+We did not finish the HTML container elements last time, so we need to do that.  Additionally, we will do an exercise to reinforce the skills learned last week and tonight.
+
+### Practice
+- Redo tonights challenge but use different markup this time.
+
+### Prep
+- HTML [Tables](http://www.w3schools.com/html/html_tables.asp)
+
+
+
 ## March 30, 2016
 
 **Submit issues for questions in the class**
 
-### Practice
+ ### Practice
 - Follow the instructions that we used in our HTML exercise but this time create another html file in the same folder about a favorite place
 - Push it to your GH account
 
