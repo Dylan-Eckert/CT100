@@ -1,7 +1,4 @@
-# HTML 3
-
-## Topics
-- Tables
+# HTML Tables
 
 ## [Table](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 Tables have been one of the most abused tags to ever exist.  And it wasn't even their fault.  The column and row nature of tables was very easy to exploit and create layouts.  These layouts resized with the page and everything.  They were almost perfect except for the fact the the content of the table had nothing to do with tables.
@@ -38,7 +35,7 @@ The `span` attribute allows you to specify how many columns the styling will spa
         </colgroup>
         <!-- table content -->
     </table>
-    
+
 I do not really agree with this.  I would use classes and css.
 
 ### [thead](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead)
@@ -114,8 +111,8 @@ This tag is almost the same as the `td` tag but it calls out header data.  This 
         </tr>
       </thead>
     </table>
-    
-    
+
+
     <table>
       <caption>Headers down the table</caption>
       <tr>

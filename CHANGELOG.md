@@ -1,3 +1,11 @@
+## April 7, 2016
+
+The class crushed the table exercises so next session will be on forms.  We are going to be adding new pages to the CodeTahoe site.
+
+### Prep
+- HTML [Tables](http://www.w3schools.com/html/form_tables.asp)
+
+
 ## April 4, 2016
 
 We did not finish the HTML container elements last time, so we need to do that.  Additionally, we will do an exercise to reinforce the skills learned last week and tonight.
