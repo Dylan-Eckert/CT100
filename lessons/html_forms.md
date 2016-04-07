@@ -66,47 +66,143 @@ The input is a generic type of element.  The type of information the input colle
 </form>
 ```
 
+<form>
+    <input type="text"/><br />
+    <input type="number" /><br />
+    <input type="email" /><br />
+    <input type="checkbox" /><br />
+    <input type="date" /><br />
+    <input type="file" /><br />
+    <input type="radio" /><br />
+</form>
+
 ###Checkboxes
-As mentioned above the checkbox input allows a user to select more than one type of value for a form input.  If you use the checkbox type you are also required to use a `value` attribute with it.
+As mentioned above the checkbox input allows a user to select more than one type of value for a form input.  If you use the checkbox type you are also required to use a `value` attribute with it. You can preselect options by using the checked attribute.
 
 ```
 <form>
     <input type="checkbox" value='A' />
-    <input type="checkbox" value='B' />
-    <input type="checkbox" value='C' />
+    <input type="checkbox" value='B' checked />
+    <input type="checkbox" value='C' checked />
 </form>
 ```
 
+<form>
+    <input type="checkbox" value='A' />
+    <input type="checkbox" value='B' checked />
+    <input type="checkbox" value='C' checked />
+</form>
+
 ### Radio
-As mentioned above the radio input allows a user to select only one type of value for a form input.  If you use the radio type you are also required to use a `value` attribute with it.  If there is more than one option to select you will have to use a `name` attribute as well.
+As mentioned above the radio input allows a user to select only one type of value for a form input.  If you use the radio type you are also required to use a `value` attribute with it.  If there is more than one option to select you will have to use a `name` attribute as well.  You can preselect an option by using the checked attribute.
 
 ```
 <form>
     <input type="radio" value='A' name='1'/>
-    <input type="radio" value='B' name='1'/>
+    <input type="radio" value='B' name='1'checked />
     <input type="radio" value='C' name='1'/>
 </form>
 ```
 
+<form>
+    <input type="radio" value='A' name='1'/>
+    <input type="radio" value='B' name='1'checked />
+    <input type="radio" value='C' name='1'/>
+</form>
 
 
 ## [Text Area](http://www.w3schools.com/tags/tag_textarea.asp)
-A text area is just large block of area for a user to write in.  It is basically just a multiline text input.
+A text area is just large block of area for a user to write in.  It is basically just a multiline text input.  With attributes you can set things like minimum and maximum length and the number of columns and rows it will show by default.
 
 ```
-<form action="email-handler.php" method="POST">
-    <textarea></textarea>
+<form>
+    <textarea rows='10' cols='50'></textarea>
+</form>
+```
+<form>
+    <textarea rows='10' cols='50'></textarea>
+</form>
+
+
+## [Select](http://www.w3schools.com/tags/tag_select.asp) and [Option](http://www.w3schools.com/tags/tag_option.asp)
+The select serves a similar purpose to the input type radio but it does it in a way more compact UI.  Imagine if you had 50 choices for a form component.  That would be really difficult for a user to deal with if it was just radio buttons.  i'd imagine that it would take up more than one line, wrapping itself down the page.  The select allows you to place multiple elements in a single component.  Select menus are sometimes referred to as dropdown menus.
+
+As I am sure you could guess, the option tag hold a single option for the select menu.  This tag requires a `value`  attribute if it will have a value, just like the radio inputs.   The option can also take an attribute of `selected` to preselect a value
+
+```
+<form>
+  <select>
+    <option>Please select</option>
+    <option value='1'>Option 1</option>
+    <option value='2' selected>Option 2</option>
+    <option value='3'>Option 3</option>
+  </select>
 </form>
 ```
 
+<form>
+  <select>
+    <option>Please select</option>
+    <option value='1'>Option 1</option>
+    <option value='2' selected>Option 2</option>
+    <option value='3'>Option 3</option>
+  </select>
+</form>
 
-## [Select](http://www.w3schools.com/tags/tag_select.asp)
-
-## [Option](http://www.w3schools.com/tags/tag_option.asp)
 
 ## [Labels](http://www.w3schools.com/tags/tag_label.asp)
+Labels literally are purely descriptive tags and do not get submitted when a form is sent off for processing.  But they are super helpful to a user.  Look at our form above: how is someone supposed to know what any of those fields are?  Imagine if there was some easy way to label those inputs.  Yay labels.  Labels also don't just visually give a name to something but they also have the ability to match up to an input by using the `for` attribute.  The desired input must be using an `id` attribute to properly do this.
+
+```
+<form>
+  <label>Name</label>
+  <input type="text"/>
+  <label>Age</label>
+  <input type="number" />
+  <label>Email</label>
+  <input type="email" />
+  <label>Birthdate</label>
+  <input type="date" />
+  <label>Sex</label>
+  <label>Male</label><input type="radio" value="male" />
+  <label>Female</label><input type="radio" value="female" />
+</form>
+```
+
+<form>
+  <label>Name</label>
+  <input type="text"/><br />
+  <label>Age</label>
+  <input type="number" /><br />
+  <label>Email</label>
+  <input type="email" /><br />
+  <label>Birthdate</label>
+  <input type="date" />
+</form>
 
 
-## [Field Set](http://www.w3schools.com/tags/tag_fieldset.asp)
 
-## [Legend](http://www.w3schools.com/tags/tag_legend.asp)
+## [Fieldset](http://www.w3schools.com/tags/tag_fieldset.asp) and [Legend](http://www.w3schools.com/tags/tag_legend.asp)
+A `fieldset` just basically allow you to group form input together and the legend is used to define a caption for a `fieldset`.
+
+```
+<form>
+  <fieldset>
+    <legend>Personal Info</legend>
+    Name <input type="text"><br>
+    Email <input type="text"><br>
+    Date of birth <input type="text">
+  </fieldset>
+</form>
+```
+
+<form>
+  <fieldset>
+    <legend>Personal Info</legend>
+    Name <input type="text"><br>
+    Email <input type="text"><br>
+    Date of birth <input type="text">
+  </fieldset>
+</form>
+
+
