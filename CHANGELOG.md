@@ -1,3 +1,7 @@
+## April 10, 2016
+
+We are starting to talk about CSS tomorrow!  We will only be spending a week on CSS but we will continue to learn more and more through out the end of the class.
+
 ## April 7, 2016
 
 The class crushed the table exercises so next session will be on forms.  We are going to be adding new pages to the CodeTahoe site.
