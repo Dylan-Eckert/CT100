@@ -1,20 +1,26 @@
 # CT100: Intro to Front End Development
 
-## About
+Welcome to CT100.  In this class you will learn basic web development and create some simple web pages/apps from scratch. You will become knowledgable in HTML, CSS, and JavaScript, as well as the basic tools of the trade, such as the Atom code editor and Github dev tools.
 
-You will learn basic web development and create some simple web apps from scratch. You will become knowledgable in HTML, CSS, and JavaScript, as well as the basic tools of the trade, such as Atom code editor, and Github dev tools.
-
-Classes will be held starting on March 28th for 6 weeks.  The last day of class will be May 5th.  We are going to meet Mon, Wed, and Thurs from 6:30pm - 9pm at Sierra Nevada College in PL-320 (Prim Library).
+Classes will start on March 28th and go for 6 weeks.  The last day of class will be May 5th.  We are going to meet Mon, Wed, and Thurs from 6:30pm - 9pm at Sierra Nevada College in PL-320 (Prim Library).
 
 [Syllabus](https://github.com/CodeTahoe/CT100/blob/master/ct100-syllabus.pdf). The syllabus is subject to change based on the pace of the class and relevancy of material at the time.
 
 All class updates will be posted in the CHANGELOG.md
 
+## Code of Conduct
+
+All events, activities, and internet spaces which bear the CodeTahoe name are subject to the [Citizen Code of Conduct](http://citizencodeofconduct.org/). Simply stated, harassment of any form will not be tolerated and should be reported to your instructor.
+
+## Communications
+
+You are a team working together to learn.  Communication will have to occur for this to be successful.  We can communicate class issues and class queestions via the GitHub issues feature.  Communication in this platform is only for class realted topics or questions.  Please use personal communication for personal communications.
+
 ## Basic timeline
 
-- Week 1: Environment Setup, Introduction to Development, Beginning HTML
-- Week 2: Continuing HTML, Intro to CSS
-- Week 3: Continuing CSS, Bootstrap UI library 
+- Week 1: Introduction to Development, Beginning HTML
+- Week 2: Continuing HTML
+- Week 3: CSS CSS, Bootstrap UI library 
 - Week 4: JavaScript
 - Week 5: JavaScript
 - Week 6: JavaScript
