@@ -10,11 +10,19 @@ Classes will be held starting on March 28th for 6 weeks.  The last day of class 
 
 All class updates will be posted in the CHANGELOG.md
 
+## Code of Conduct
+
+All events, activities, and internet spaces which bear the CodeTahoe name are subject to the [Citizen Code of Conduct](http://citizencodeofconduct.org/). Simply stated, harassment of any form will not be tolerated and should be reported to your instructor.
+
+## Communications
+
+You are a team working together to learn.  Communication will have to occur for this to be successful.  We can communicate class issues and class queestions via the GitHub issues feature.  Communication in this platform is only for class realted topics or questions.  Please use personal communication for personal communications.
+
 ## Basic timeline
 
-- Week 1: Environment Setup, Introduction to Development, Beginning HTML
-- Week 2: Continuing HTML, Intro to CSS
-- Week 3: Continuing CSS, Bootstrap UI library 
+- Week 1: Introduction to Development, Beginning HTML
+- Week 2: Continuing HTML
+- Week 3: CSS CSS, Bootstrap UI library 
 - Week 4: JavaScript
 - Week 5: JavaScript
 - Week 6: JavaScript
