@@ -1,8 +1,8 @@
 # CT100: Intro to Front End Development
 
-You will learn basic web development and create some simple web apps from scratch. You will become knowledgable in HTML, CSS, and JavaScript, as well as the basic tools of the trade, such as Atom code editor, and Github dev tools.
+Welcome to CT100.  In this class you will learn basic web development and create some simple web pages/apps from scratch. You will become knowledgable in HTML, CSS, and JavaScript, as well as the basic tools of the trade, such as the Atom code editor and Github dev tools.
 
-Classes will be held starting on March 28th for 6 weeks.  The last day of class will be May 5th.  We are going to meet Mon, Wed, and Thurs from 6:30pm - 9pm at Sierra Nevada College in PL-320 (Prim Library).
+Classes will start on March 28th and go for 6 weeks.  The last day of class will be May 5th.  We are going to meet Mon, Wed, and Thurs from 6:30pm - 9pm at Sierra Nevada College in PL-320 (Prim Library).
 
 [Syllabus](https://github.com/CodeTahoe/CT100/blob/master/ct100-syllabus.pdf). The syllabus is subject to change based on the pace of the class and relevancy of material at the time.
 
