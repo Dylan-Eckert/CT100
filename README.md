@@ -39,4 +39,3 @@ You are a team working together to learn.  Communication will have to occur for 
 [LinkedIn](https://www.linkedin.com/in/timolesnavage) |
 [Github](https://github.com/TimOlesnavage) |
 [Twitter](https://twitter.com/TimOlesnavage)
-
