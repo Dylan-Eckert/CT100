@@ -1,0 +1,13 @@
+.wrapper {
+  border: 1px solid black;
+  min-height: 500px;
+}
+
+.grid-content {
+  border: 1px solid blue;
+  height: 50px;
+}
+
+.row {
+  margin-bottom: 12px;
+}
