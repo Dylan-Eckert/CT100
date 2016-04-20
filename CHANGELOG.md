@@ -1,3 +1,8 @@
+## April 20, 2016
+
+So last class was kind of rough.  Somehow I got derailed from my lesson plan and got on to functions.  I just got too excited... JS does that to me.   Tonight we will step back a bit and review following javascript_1.md and then we will start talking about logic, conditionals, and looping following javascript_2.md.  If I get sucked into functions, call me on it.
+
+
 ## April 10, 2016
 
 We are starting to talk about CSS tomorrow!  We will only be spending a week on CSS but we will continue to learn more and more through out the end of the class.
