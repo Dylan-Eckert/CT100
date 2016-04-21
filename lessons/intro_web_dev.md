@@ -1,6 +1,6 @@
 # Introduction to Web Development
 
-## I know how build a website
+## I can build a website
 
 What really is a website?  Is an app the same as a website?  Is everything on the internet a website?
 
@@ -14,7 +14,7 @@ The difference between a website and a web application is really subjective and 
 
 No, everything on the internet is not a website.  The internet has all sorts of information available.  Some of it is presented in the form of websites and some of it comes in code formats like XML and JSON.  The code formatted information is accessible from something called an API (application programming interface).  The API, like a website, has an address and is hosted.  It does not have webpages; it only provides that pure, unformatted data.  Websites and web apps will use this data to giving you a more human readable/friendly format.
 
-The technologies that a website uses can be split into two main camps: front end/client side and back end/server side. FE is the stuff that you see and interact with (HTML, CSS, JS).  The BE is everything else 
+The technologies that a website uses can be split into two main camps: front end/client side and back end/server side. FE is the stuff that you see and interact with (HTML, CSS, JS).  The BE is everything else
 
 ![image](http://4b93n32qwvjj3ddn5w3yhffoas6.wpengine.netdna-cdn.com/wp-content/uploads/2012/08/term-frontendvsbackend.jpeg)
 
