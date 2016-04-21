@@ -1,6 +1,6 @@
 # JavaScript 2: Control Logic
 
-You use logic every day; it is not just programming concept.  Logic is literally just a reasonable way of thinking about something  In JavaScript we logic to control the flow of our app.  By flow I am referring to how the app is presented to a user.  For example: if an app requires a user to access certain content, the person must be logged.  The app may send a person to a login page instead of serving their content.  This is foundational for everything that involves development
+You use logic every day; it is not just programming concept.  Logic is literally just a reasonable way of thinking about something  In JavaScript we logic to control the flow of our app.  By flow I am referring to how the app is presented to a user.  For example: if an app requires a user to access certain content, the person must be logged.  The app may send a person to a login page instead of serving their content.  This is foundational for everything that involves development.
 
 ## Boolean logic
 This logic revolves around whether something evaluates to true of false.  Using our above example we could say, if a user is not logged in, have them log in, else allow them to view the content.  To make these kind of evaluations we need some sort of way to compare things.  JavaScript has a bunch of comparison operators we can use.
