@@ -1,3 +1,9 @@
+## April 21, 2016
+
+Last night was great.  I feel like I almost made up for Monday.  But tongiht we will start using the F word.  Its going to be like a punk song:  F this, F that, F everything.  But before that we will be finishing up looping.  There is one more loop at the bottom of javasccipt_2.md that we did not cover.  That is the foreach loop.
+
+Bonus for next week:  We will start talking about JavaScript data structures: [Arrays](http://www.w3schools.com/js/js_arrays.asp) and [Objects](http://www.w3schools.com/js/js_object_definition.asp).  Take a look at the links and come with an edge on the insanity.
+
 ## April 20, 2016
 
 So last class was kind of rough.  Somehow I got derailed from my lesson plan and got on to functions.  I just got too excited... JS does that to me.   Tonight we will step back a bit and review following javascript_1.md and then we will start talking about logic, conditionals, and looping following javascript_2.md.  If I get sucked into functions, call me on it.
