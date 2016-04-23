@@ -10,11 +10,13 @@ Ex Output: Your age is roughly 3342342 days
 ## Safe night out
 Write a function that will advise you on whether you could have another drink or you should stop.
 
+```
 var drunkBloodLevel = 0.10;
 var bloodLevelIncreasePerDrink = 0.02;
 var currentBloodLevel = 0;
 var drinksDrankPerHour = 2;
 var drinksMetabolizedPerHour = 1;
+```
 
 ## Temperature conversation
 Write a JS function that you can use to convert any temperature C to F or F to C
