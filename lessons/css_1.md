@@ -1,4 +1,4 @@
-# Intro to CSS
+# CSS 1
 
 ## What is CSS
 
@@ -6,7 +6,7 @@ In the mid 90's the web got confused and just made a mess.  The representation o
 
 CSS (Cascading Style Sheets) is a language that describes the presentation of HTML, meaning, it puts the color on.  CSS can change things like colors, sizes, and fonts.  It allows us to describe information in a way that is understandable by human senses; it allows you to invoke emotion and greater meaning with data.  You can also use different styles based on the rendered size of your webpage.  For example: the same webpage can and often does look different on a phone than on a computer.  Just like HTML, **semantics** are very important with CSS; it is the visual logic used to compliment a well formed webpage.
 
-It is important to note that learning CSS does not mean you are now a designer.  To be successful with HTML requires the ability to describe information; CSS is totally different.  CSS is not necessarily right or wrong in its implementation and no two people will solve something the same way.  You can absolutely learn and master the syntax of CSS but in order to really bend to your will requires creativity, imagination, truly a desire to solve problems... and stubbornness. 
+It is important to note that learning CSS does not mean you are now a designer.  To be successful with HTML requires the ability to describe information; CSS is totally different.  CSS is not necessarily right or wrong in its implementation and no two people will solve something the same way.  You can absolutely learn and master the syntax of CSS but in order to really bend to your will requires creativity, imagination, truly a desire to solve problems... and stubbornness.
 
 ## Pieces and Syntax
 
@@ -154,7 +154,7 @@ Just like color there are many different ways that a size gets applied to an HTM
 This property controls the background of an element.  You now have to be concerned with your UI.  You can very quickly make a mess out of a page by using colors and images that do not create good contrast.  Text can become hard to see or even disappear based on the choices you make here.
 
 - background-color: sets the color of a background - can use any of the mentioned colors
-- background-image: sets a background image to a linkable image - url('some-image.jpg') 
+- background-image: sets a background image to a linkable image - url('some-image.jpg')
 - background-repeat: allows you to repeat an image across a page - repeat, repeat-x, repeat-y, no-repeat
 - background-position: sets the position of the image being used for a background - top, bottom, left, right, pixels, or percentage
     - [Example](https://dl.dropboxusercontent.com/u/18759926/famous-ad/index.html?wmode=opaque)
@@ -238,7 +238,7 @@ The text properties address characters that are already on screen.  You cannot c
 
 - color: changes the text color
 - text-align: sets the horizontal alignment of the text - left, right, center
-- text-decoration: allows you to decorate text - underline, overlain, line-through 
+- text-decoration: allows you to decorate text - underline, overlain, line-through
 - text-transform: allows you to transform the casing of text - uppercase, lowercase, capitalize
 - text-indent: allows you to indent text
 - letter-spacing: the  space between each character
@@ -255,10 +255,3 @@ p {
     line-height: 1.5;
 }
 ```
-
-
-
-
-
-
-

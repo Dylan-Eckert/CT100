@@ -20,10 +20,10 @@ You are a team working together to learn.  Communication will have to occur for 
 
 - Week 1: Introduction to Development, Beginning HTML
 - Week 2: Continuing HTML
-- Week 3: CSS CSS, Bootstrap UI library
-- Week 4: JavaScript
-- Week 5: JavaScript
-- Week 6: JavaScript
+- Week 3: CSS, Bootstrap UI library
+- Week 4: JS: Data Types & Variables, Control Logic, Functions
+- Week 5: JS: Data Structures, DOM, jQuery
+- Week 6: jQuery
 
 ## Instructor
 ### Jordan Papaleo

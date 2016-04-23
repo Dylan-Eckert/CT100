@@ -1,4 +1,4 @@
-# JavaScript 1
+# JavaScript 1: Data Types & Variables
 
 JavaScript is the most popular programming language in the world.  It can be used to create websites, games, servers, and native apps.  You can use JavaScript to create complex animations and run physics engines.  It can be used to manipulate 3d objects created by high performing applications like Maya.  JavaScript is just amazing and what you can do with ti is only limited by what you can think up.  Ok but we getting a little ahead of ourselves.  Let's take it back a bit and learn about this JavaScript.
 
@@ -16,7 +16,7 @@ To create bigger and more complex applications you will need some sort of text e
 
 So all languages have the concept of types of data.  You can think of data as any value in a program.  This data can be numbers, words, and collections of data.  A data type allows us to classify information and then restrict the types of things you can do with it.  Imagine if you were trying to do math.  You will need to make sure you have numbers.  Its like that it it will become more clear as we start to use data types to do fun stuff.  
 
-There a a handful of data types in JavaScript.  We will talk about them all but for now we are just going to discuss what JavaScript calls their **primitive** data types.  A primitive value is really a low level part of JavaScript and there a 5 of them: 
+There a a handful of data types in JavaScript.  We will talk about them all but for now we are just going to discuss what JavaScript calls their **primitive** data types.  A primitive value is really a low level part of JavaScript and there a 5 of them:
 
 - numbers
 - strings
@@ -181,21 +181,3 @@ alert(name)
 ```
 console.log('my name is jordan')
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
