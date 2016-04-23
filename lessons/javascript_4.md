@@ -19,10 +19,84 @@ For example:  There is a line to get into a concert.  The first person in the li
 
 Queues have two methods to add or remove data from the list.  We can enqueue something to the top of the stack and dequeue something from the bottom of the stack.  So in our example, you are enqueued when you enter the line and dequeued when you make it to the front and get in to the concert.
 
-## JavaScript: Arrays
-JavaScript does not have stacks or queues.  The JS array is what you would get stacks and queues got married and had a child.  The JS Array is a sequential way to group data  The Array has the ability to push items in
+## JavaScript: [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+JavaScript does not have stacks or queues.  The JS array is what you would get stacks and queues got married and had a child.  The JS Array is a sequential way to group like data.  In reality, you can group anything in an array in JS.  You can have an array of numbers, strings, booleans, and even functions or any mix of.  But just because you can does not mean you should.  Grouping similar items together is a great use of arrays.
 
-## Computer Science: Trees
-Trees are the most common data structure used on the web.  A tree is a data structure that creates a hierarchy of information.  HTML is a hierarchal structure.  A node has a pointer to its parents and its children.  A tree structure can continue to nest over and over.  Each node in the tree can have children, and those can have children too.
+### Syntax
+You will define an array by using open and closed brackets.  Inside the brackets you can add stuff.  You separate all the stuff with commas.  So you end up with a bunch of comma separated values enclosed in brackets.  You can also assign the value of an array to a variable.  Arrays are indexed meaning we can refer to any position in an array by using brackets and a number.
 
-## JavaScript: Objects
+```
+// Bad group
+var friend1 = 'Tim'
+var friend2 = 'Jim'
+var friend3 = 'Jon'
+var friend4 = 'Ron'
+
+// Good group
+var friends = ['Tim', 'Jim', 'Jon', 'Ron']
+
+friends[2] // 'Jon'
+```
+
+In this example there are a few things that could be problematic with making a var for each friend.  The first is that it violates our **DRY** (don't repeat yourself) principle.  Each time we declare a variable friend we break this rule.  Secondly, think how would you efficiently interact with your friends.  Every thing would require us call each friend variable.  Wouldn't it be easier to just say do this for all friends.  A real world example of this is any sort of group messaging/email.  We take collection of individuals and group them allowing us to send a message once to everyone.
+
+### Methods
+
+There are a lot of methods that JavaScript natively has to help us better use arrays.  We can access all the methods that stacks and queues use allowing us to add and remove content.  
+
+**push/pop** allow us to add or remove from the end of an array.  When we add an item to an array using push, it will be added as the last item.  When we pop off an item in an array, it will remove the last item.  When you pop an item you can also store it as a variable.  When you push an item, you can store the new length of the array.  Push takes a parameter of the value you want to add to the array.
+
+```
+var friends = ['Tim', 'Jim', 'Jon', 'Ron']
+
+friends.push('Rick')
+console.log(friends) // ['Tim', 'Jim', 'Jon', 'Ron', 'Rick']
+
+var exFriend = friends.pop()
+console.log(exFriend) // 'Rick'
+console.log(friends) // ['Tim', 'Jim', 'Jon', 'Ron']
+
+```
+
+**shift/unshift** allows us to add or remove an and item from the beginning of the array.  When we unshift something it will be added as index 0 of an array.  When we use shift, it will remove the first item from from an array.  When you shift and item you can also store it as a variable.  When you unshift an item, you can store the new length of the array.  Unshift takes a parameter of the value you want to add to the array.
+
+```
+var friends = ['Tim', 'Jim', 'Jon', 'Ron']
+
+friends.unshift('Ted')
+console.log(friends) // ['Ted', Tim', 'Jim', 'Jon', 'Ron']
+
+var exFriend = friends.shift()
+console.log(exFriend) // 'Ted'
+console.log(friends) // ['Tim', 'Jim', 'Jon', 'Ron']
+
+```
+
+**indexOf** allows us to search through an array.  The method will try to find a value we provide.  If found it will return the index of value.  If it does not exist in the array, it will return the value of -1.  Indexof takes a parameter of the value you want to look for.
+
+```
+var friends = ['Ted', 'Tim', 'Jim', 'Jon', 'Ron', 'Rick']
+
+var bestFriendPos = friends.indexOf('Ned')
+var bestFriend = friends[bestFriendPos]
+console.log(bestFriendPos, bestFriend) // -1 undefined
+
+var secondBestFriendPos = friends.indexOf('Ron')
+var secondBestFriend = friends[secondBestFriendPos]
+console.log(secondBestFriendPos, secondBestFriendPos) // 4, 'Ron'
+
+
+```
+
+**slice** gives us a way to copy a part of the array.  When we do this, the copy will be returned and we can store it in a variable as a new array.  Slice takes an optional 2 parameters.  Bot params are numbers and the first is where the number index of where the copy should start.  The second value is the index of its upper boundary, meaning it will not copy that value.  If there are no params, slice will return a shallow copy of the entire array.  Using slice will not modify the original array at all.
+
+```
+var friends = ['Ted', 'Tim', 'Jim', 'Jon', 'Ron', 'Rick']
+
+var bestFriends = friends.slice(3, 5)
+console.log(bestFriends) // ['Jon', 'Ron']
+console.log(friends) // ['Ted', 'Tim', 'Jim', 'Jon', 'Ron', 'Rick']
+```
+
+
+

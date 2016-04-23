@@ -18,11 +18,11 @@ You are a team working together to learn.  Communication will have to occur for 
 
 ## Basic timeline
 
-- Week 1: Introduction to Development, Beginning HTML
+- Week 1: Intro to Dev, HTML
 - Week 2: Continuing HTML
-- Week 3: CSS, Bootstrap UI library
+- Week 3: CSS, Bootstrap
 - Week 4: JS: Data Types & Variables, Control Logic, Functions
-- Week 5: JS: Data Structures, DOM, jQuery
+- Week 5: JS: Data: Arrays, Data: Objects, DOM
 - Week 6: jQuery
 
 ## Instructor
