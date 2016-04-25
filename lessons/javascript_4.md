@@ -1,4 +1,4 @@
-# JavaScript: Data Structures Part 1
+# JavaScript: Data Structures Part 1 Arrays
 
 ## Data Structures
 Data structure is a computer science term.  Sounds advanced with the possibility of being super confusing too.  If we just look at the word, would seem like it is data with structure.  But does that mean some data does not have structure, and how much structure is required to make something really structured.  We could say that using data structures means that we are organizing information in a way that is most efficient for use.  This can be accomplished through collections of similar information or the collection of information that describes the same thing.
@@ -55,7 +55,6 @@ console.log(friends) // ['Tim', 'Jim', 'Jon', 'Ron', 'Rick']
 var exFriend = friends.pop()
 console.log(exFriend) // 'Rick'
 console.log(friends) // ['Tim', 'Jim', 'Jon', 'Ron']
-
 ```
 
 **shift/unshift** allows us to add or remove an and item from the beginning of the array.  When we unshift something it will be added as index 0 of an array.  When we use shift, it will remove the first item from from an array.  When you shift and item you can also store it as a variable.  When you unshift an item, you can store the new length of the array.  Unshift takes a parameter of the value you want to add to the array.
@@ -69,7 +68,6 @@ console.log(friends) // ['Ted', Tim', 'Jim', 'Jon', 'Ron']
 var exFriend = friends.shift()
 console.log(exFriend) // 'Ted'
 console.log(friends) // ['Tim', 'Jim', 'Jon', 'Ron']
-
 ```
 
 **indexOf** allows us to search through an array.  The method will try to find a value we provide.  If found it will return the index of value.  If it does not exist in the array, it will return the value of -1.  Indexof takes a parameter of the value you want to look for.
@@ -84,8 +82,6 @@ console.log(bestFriendPos, bestFriend) // -1 undefined
 var secondBestFriendPos = friends.indexOf('Ron')
 var secondBestFriend = friends[secondBestFriendPos]
 console.log(secondBestFriendPos, secondBestFriendPos) // 4, 'Ron'
-
-
 ```
 
 **slice** gives us a way to copy a part of the array.  When we do this, the copy will be returned and we can store it in a variable as a new array.  Slice takes an optional 2 parameters.  Bot params are numbers and the first is where the number index of where the copy should start.  The second value is the index of its upper boundary, meaning it will not copy that value.  If there are no params, slice will return a shallow copy of the entire array.  Using slice will not modify the original array at all.
@@ -98,5 +94,35 @@ console.log(bestFriends) // ['Jon', 'Ron']
 console.log(friends) // ['Ted', 'Tim', 'Jim', 'Jon', 'Ron', 'Rick']
 ```
 
+### For Loops
+This is another type of loop specifically used for iterating over content.  When you do this you usually want to access the content at a specific point or index.  It performs in a similar way as a while loop but does it in a different way.
 
+```
+for (init; condition; step) {
+  // do something
+}
+```
 
+- Init: variables only exist in the loop
+- Condition: when it should keep running
+- Step: What do we do at the end of the loop
+
+Example printing characters in a string
+
+```
+var str = 'hello'
+
+for (var i = 0; i < str.length; i++) {
+  console.log(str[i])
+}
+```
+
+Here we are saying that we want to set a starting point of 0 and assign it to the variable of **i**. For as long as **i** is less than the length of our variable **str**, print the value of the **str** at the index of **i**.  Then increment **i** by one.
+
+```
+var colors = ['red', 'orange', 'yellow', 'green']
+
+for (var i = 0; i < colors.length; i++) {
+  console.log(colors[i])
+}
+```

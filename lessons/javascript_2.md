@@ -100,7 +100,7 @@ while (somethingIsTrue) {
 
 There are two new arithmetic operators we get to use now: **increment** and **decrement**
 
-**++** will take a value and increment it by one 
+**++** will take a value and increment it by one
 
 **--** will take a value and decrement it by one
 
@@ -138,40 +138,3 @@ while (num <= 10) {
 
 **Infinite loops**
 All looping has the potential for becoming an infinite loop.  An infinite loop is literally a loop whose conditional logic never becomes false.  If its always true it will always run until the end of existence, or your computers memory which will most likely happen first.  Most modern browsers today will actually catch these and kill the process.  When using loops you have to have a point where the conditional becomes false.
-
-
-### For Loops
-This is another type of loop specifically used for iterating over content.  When you do this you usually want to access the content at a specific point or index.  It performs in a similar way as a while loop but does it in a different way.  
-
-```
-for (init; condition; step) {
-  // do something
-}
-```
-
-- Init: variables only exist in the loop
-- Condition: when it should keep running
-- Step: What do we do at the end of the loop
-
-Example printing characters in a string
-
-```
-var str = 'hello'
-
-for (var i = 0; i < str.length; i++) {
-  console.log(str[i])
-}
-```
-
-Here we are saying that we want to set a starting point of 0 and assign it to the variable of **i**. For as long as **i** is less than the length of our variable **str**, print the value of the **str** at the index of **i**.  Then increment **i** by one.
-
-Mental Evaluation: What will this do
-
-```
-for (var i = 0; i < 16; i+=8) {
-  console.log(i)
-}
-```
-
-
-

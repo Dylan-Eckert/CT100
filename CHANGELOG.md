@@ -1,3 +1,7 @@
+## April 25, 2016
+Great job last week everyone.  We did have some missing team mates and you guys really need to make sure you read javascript_3.md.  We will be discussing javascript_4.md tonight.  Read ahead and get ready.
+
+
 ## April 21, 2016
 
 Last night was great.  I feel like I almost made up for Monday.  But tongiht we will start using the F word.  Its going to be like a punk song:  F this, F that, F everything.  But before that we will be finishing up looping.  There is one more loop at the bottom of javasccipt_2.md that we did not cover.  That is the foreach loop.
