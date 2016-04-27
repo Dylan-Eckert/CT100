@@ -1,10 +1,19 @@
+## April 27, 2016
+
+I uploaded the solution to the todo exercise we did the other night.
+
+Tonight we are going to be talking about objects.  Objects are the other data structure that we use in JS.  Everything is an object, that about sums it up. I uploaded javascript_5.md.  Taking a look before class will make class easier to digest ;)
+
+We are almost to the super fun part of JS.  DOM, DOM, DOM, DOM da DOM, DOM da DOM (to the tune of the [Imperial March](https://www.youtube.com/watch?v=-bzWSJG93P8))
+
 ## April 25, 2016
+
 Great job last week everyone.  We did have some missing team mates and you guys really need to make sure you read javascript_3.md.  We will be discussing javascript_4.md tonight.  Read ahead and get ready.
 
 
 ## April 21, 2016
 
-Last night was great.  I feel like I almost made up for Monday.  But tongiht we will start using the F word.  Its going to be like a punk song:  F this, F that, F everything.  But before that we will be finishing up looping.  There is one more loop at the bottom of javasccipt_2.md that we did not cover.  That is the foreach loop.
+Last night was great.  I feel like I almost made up for Monday.  But tonight we will start using the F word.  Its going to be like a punk song:  F this, F that, F everything.  But before that we will be finishing up looping.  There is one more loop at the bottom of javascript_2.md that we did not cover.  That is the foreach loop.
 
 Bonus for next week:  We will start talking about JavaScript data structures: [Arrays](http://www.w3schools.com/js/js_arrays.asp) and [Objects](http://www.w3schools.com/js/js_object_definition.asp).  Take a look at the links and come with an edge on the insanity.
 
