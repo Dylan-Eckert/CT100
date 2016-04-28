@@ -29,5 +29,5 @@ The object should also have methods used to that can be called to get the area a
 - Give it a Genre
 - Add the main actors to it
 
-"Some Movie" - 3.5 stars, you have not seen it
+"Some Movie" - 3.5 stars, you have not seen it<br>
 Comedy staring: Billy, Bobby, and Sally
