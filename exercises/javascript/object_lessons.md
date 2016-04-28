@@ -17,7 +17,7 @@ var student = {
 
 ## Circle properties
 
-Write a JavaScript object that has the properties of a circle.  Use an object constructor to that takes a radius.  The object should have the properties of radius and diameter.
+Write a JavaScript object that has the properties of a circle.  Use an object constructor that takes a a single parameter of radius.  The object should have the properties of radius and diameter.
 
 The object should also have methods used to that can be called to get the area and circumference.
 
