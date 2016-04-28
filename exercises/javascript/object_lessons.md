@@ -8,7 +8,7 @@ Write a JavaScript program to list the properties of a JavaScript object
 var student = {
   name: 'Jordan',
   id: 123456789,
-  creditsEarned: 80
+  creditsEarned: 80,
   phone: '(123) 456-7890',
   address: '123 Sesame Street, Truckee, CA',
   currentClasses: ['CT100', 'CT200', 'CT300']
