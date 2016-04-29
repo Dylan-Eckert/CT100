@@ -1,3 +1,6 @@
+## April 28, 2016
+[DOM, DOM, DOM, DOM da DOM, DOM da DOM](https://www.youtube.com/watch?v=-bzWSJG93P8)
+
 ## April 27, 2016
 
 I uploaded the solution to the todo exercise we did the other night.
