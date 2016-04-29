@@ -54,10 +54,10 @@ var document = {
         // returns a node list
     },
     querySelector: function () {
-        // returns a node list with one item in it        
+        // returns a single node
     },
     querySelectorAll: fuSelector) {
-        // returns a nde list
+        // returns a node list
 at match
     }
 }
