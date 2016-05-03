@@ -61,11 +61,11 @@ var button = document.querySelector('button')
 
 button.addEventListener('click', function (ev) {
   console.log('Event 1', ev)
-}
+})
 
 button.addEventListener('click', function (ev) {
   console.log('Event 2', ev)
-}
+})
 ```
 
 Notice the the event type is not *onclick* but just *click*.  The method does not set the DOM property.  That's it for the intro.  Like I mentioned there are a ton of topics here and this is all you need to start using events.  
